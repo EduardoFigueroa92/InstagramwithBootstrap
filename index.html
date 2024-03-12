@@ -7,7 +7,8 @@
   <title>hola</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/4105e1b5ea.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4105e1b5ea.js" crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
@@ -23,7 +24,8 @@
 
         <!--Aquí empieza el button modal-->
         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
-          data-whatever="@fat">Create a new post</button>
+          data-whatever="@fat">Create a new post
+        </button>
 
         <!--Aquí empieza el modal-->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -40,15 +42,20 @@
                   <div class="form-group">
                     <label for="message-text" class="col-form-label">Caption:</label>
                     <textarea class="form-control" id="message-text">Add the caption of your post here</textarea>
-                    <button type="button" class="btn btn-light mt-2 mr-1"><i class="fa-solid fa-camera"></i></button>
-                    <button type="button" class="btn btn-light mt-2 ml-1"><i
-                        class="fa-solid fa-location-dot"></i></button>
+                    <button type="button" class="btn btn-light mt-2 mr-1">
+                      <i class="fa-solid fa-camera"></i>
+                    </button>
+                    <button type="button" class="btn btn-light mt-2 ml-1">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </button>
                   </div>
                 </form>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Publish</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+                </button>
+                <button type="button" class="btn btn-success">Publish
+                </button>
               </div>
             </div>
           </div>
@@ -56,7 +63,7 @@
         <!--Aquí acaba el modal-->
 
         <!--Aquí empieza el dropdown-->
-        <div class="btn-group">
+        <div class="btn-group ml-2">
           <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
             aria-expanded="false"><i class="fa-solid fa-gear"></i>
             <span class="sr-only">Right-aligned menu</span>
@@ -65,7 +72,8 @@
             <a class="dropdown-item" href="#">Profile</a>
             <a class="dropdown-item" href="#">Accesibility</a>
             <a class="dropdown-item" href="#">Privacy and Data</a>
-            <div class="dropdown-divider"></div>
+            <div class="dropdown-divider">
+            </div>
             <a class="dropdown-item text-danger" href="#">Log out</a>
           </div>
         </div>
@@ -76,68 +84,81 @@
   </nav>
   <!--Aquí acaba el navbar-->
   <!--HASTA AQUÍ TODO ESTÁ BIEN-->
-  <nav>
-    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-      <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button"
-        role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-border-all"></i></button>
-      <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button"
-        role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
-    </div>
-  </nav>
+  <div class="container-fluid" style="width: 100%; height: 100%;">
+    <nav>
+      <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button"
+          role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-border-all"></i></button>
+        <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button"
+          role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+      </div>
+    </nav>
 
-  <div class="tab-content" id="nav-tabContent"><!--Boton cuadriculado-->
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-      <div class="row">
-        <div class="col-4" style="width: 300px; height: 300px;">
-          <img class="img-fluid rounded" src="1-2.jpg" style: width="100%" ; height="100% " ;object-fit: cover>
-        </div>
-        <div class="col-4" style="width: 300px; height: 300px;">
-          <img class="img-fluid rounded" src="https://naturalezadeasturias.es/upload/PN-somiedo_des_21.jpg" style:
-            width="100%" ; height="100%" ;object-fit: cover>
-        </div>
-        <div class="col-4" style="width: 300px; height: 300px;">
-          <img class="img-fluid rounded" src="1-2.jpg" style: width="100%" ; height="100%" ;object-fit: cover>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4" style="width: 300px; height: 300px;">
-          <img class="img-fluid rounded" src="https://naturalezadeasturias.es/upload/PN-somiedo_des_21.jpg" style:
-            width="100%" ; height="100%" ;object-fit: cover>
-        </div>
-        <div class="col-4" style="width: 300px; height: 300px;">
-          <img class="img-fluid rounded"
-            src="https://www.tragaviajes.com/wp-content/uploads/lagos-de-saliencia-somiedo-asturias-14-1.jpg" style:
-            width="100%" ; height="100%" ;object-fit: cover>
-        </div>
-        <div class="col-4" style="width:300px; height: 300px;">
-          <img class="img-fluid rounded"
-            src="https://biodevas.org/wp-content/uploads/2021/11/DSC01868_Lago_del_Valle_Parque_natural_de_Somiedo_Asturias.jpg"
-            style: width="100%" ; height="100%" ;object-fit: cover>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4" style="width:300px; height: 300px;">
-          <img class="img-fluid rounded"
-            src="https://www.muntania.com/wp-content/uploads/2021/04/20200420093810-senderismo-en-el-parque-natural-de-somiedo-asturias-puente-del-pilar.jpg"
-            style: width="100%" ; height="100%" ;object-fit: cover>
-        </div>
-        <div class="col-4" style="width:300px; height: 300px;">
-          <img class="img-fluid rounded"
-            src="https://2.bp.blogspot.com/-bozy5PZmJFQ/Vyh4Mpc_BYI/AAAAAAAAV60/dfIovc4Kiyw1bghIqoFIxTp-LP7M4-j0gCLcB/s1600/Bra%25C3%25B1a%2Bde%2Bla%2BPornacal%2B2%2BComarca%2BVaqueira%2BAsturias.pn"
-            style: width="100%" ; height="100%" ;object-fit: cover>
-        </div>
-        <div class="col-4" style="width:300px; height: 300px;">
-          <img class="img-fluid rounded"
-            src="https://www.muntania.com/wp-content/uploads/2021/04/20200420093810-senderismo-en-el-parque-natural-de-somiedo-asturias-puente-del-pilar.jpg"
-            style: width="100%" ; height="100%" ;object-fit: cover>
-        </div>
-      </div>
-    </div>
-    <!--boton solido-->
-    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-      <div class="container-fluid">
 
-        <div class="card mx-auto mb-4" style="width: 35rem;"><!--primer post-->
+    <div class="tab-content" id="nav-tabContent">
+      <!--Boton cuadriculado-->
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="container mr-5 justify-content-center align-items-center">
+          <div class="d-inline-block justify-content-center align-items-center">
+            <div class="row mt-3 mb-4">
+              <div class="col-4" style="width: 300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark" src="1-2.jpg" style="width: 300px; height: 300px;"
+                  ;object-fit: cover>
+              </div>
+              <div class="col-4" style="width: 300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark"
+                  src="https://naturalezadeasturias.es/upload/PN-somiedo_des_21.jpg"
+                  style="width: 300px; height: 300px;" ;object-fit: cover>
+              </div>
+              <div class="col-4" style="width: 300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark"
+                  src="https://www.tragaviajes.com/wp-content/uploads/lagos-de-saliencia-somiedo-asturias-14-1.jpg"
+                  style="width: 300px; height: 300px;" ;object-fit: cover>
+              </div>
+            </div>
+            <div class="row mt-3 mb-4">
+              <div class="col-4" style="width: 300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark"
+                  src="https://www.turismoasturias.es/documents/39908/65886/Somiedo.jpg/0362f812-77e9-341c-72e7-d697c06ec9b6"
+                  style="width: 300px; height: 300px;" ;object-fit: cover>
+              </div>
+              <div class="col-4" style="width: 300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark"
+                  src="https://astourland.com/wp-content/uploads/2022/03/Somiedo.jpg"
+                  style="width: 300px; height: 300px;" ;object-fit: cover>
+              </div>
+              <div class="col-4" style="width:300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark"
+                  src="https://www.muntania.com/wp-content/uploads/2021/04/20200420093810-senderismo-en-el-parque-natural-de-somiedo-asturias-puente-del-pilar.jpg"
+                  style="width: 300px; height: 300px;" ;object-fit: cover>
+              </div>
+            </div>
+            <div class="row mt-3 mb-4">
+              <div class="col-4" style="width:300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark"
+                  src="https://photo980x880.mnstatic.com/f40457bb33bac0f5108043e93d652e42/parque-natural-de-somiedo-7871562.jpg"
+                  style="width: 300px; height: 300px;" ;object-fit: cover>
+              </div>
+              <div class="col-4" style="width:300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark"
+                  src="https://2.bp.blogspot.com/-bozy5PZmJFQ/Vyh4Mpc_BYI/AAAAAAAAV60/dfIovc4Kiyw1bghIqoFIxTp-LP7M4-j0gCLcB/s1600/Bra%25C3%25B1a%2Bde%2Bla%2BPornacal%2B2%2BComarca%2BVaqueira%2BAsturias.pn"
+                  style="width: 300px; height: 300px;" ;object-fit: cover>
+              </div>
+              <div class="col-4" style="width:300px; height: 300px;">
+                <img class="img-fluid rounded border border-dark"
+                  src="https://biodevas.org/wp-content/uploads/2021/11/DSC01868_Lago_del_Valle_Parque_natural_de_Somiedo_Asturias.jpg"
+                  style="width: 300px; height: 300px;" ;object-fit: cover>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--boton solido-->
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <!--primer post-->
+        <div class="card mx-auto mt-3 mb-4" style="width: 35rem;">
           <div class="card-body p-2">
             <div class="float-right">
               <p>02/24</p>
@@ -147,51 +168,49 @@
           <img src="https://www.wildsomiedo.com/wp-content/uploads/2023/11/somiedo-nieve.jpg">
           <div class="card-body p-2">
             <p class="card-text font-weight-bold mb-0"> 204 Likes</p>
-            <p class="card-text mb-3">Nevada espectacular en la Laguna de Saliencia/p>
+            <p class="card-text mb-3">Nevada espectacular en la Laguna de Saliencia</p>
           </div>
         </div>
-      </div>
-
-      <div class="card mx-auto mb-4" style="width: 35rem;"><!--segundo post-->
-        <div class="card-body p-2">
-          <div class="float-right">
-            <p>03/24</p>
+        <!--segundo post-->
+        <div class="card mx-auto mb-4" style="width: 35rem;">
+          <div class="card-body p-2">
+            <div class="float-right">
+              <p>03/24</p>
+            </div>
+            <p class="card-text font-weight-bold">Lago La Cueva</p>
           </div>
-          <p class="card-text font-weight-bold">Lago La Cueva</p>
-        </div>
-        <img
-          src="https://biodevas.org/wp-content/uploads/2021/11/DSC01868_Lago_del_Valle_Parque_natural_de_Somiedo_Asturias.jpg">
-        <div class="card-body p-2">
-          <p class="card-text font-weight-bold mb-0"> 182 Likes</p>
-          <p class="card-text mb-3">Lago de la Cueva o la mina, llamado así por las entradas a las minas de hierro</p>
-        </div>
-      </div>
-
-      <div class="card mx-auto mb-4" style="width: 35rem;"><!--tercer post-->
-        <div class="card-body p-2">
-          <div class="float-right">
-            <p>04/24</p>
+          <img
+            src="https://biodevas.org/wp-content/uploads/2021/11/DSC01868_Lago_del_Valle_Parque_natural_de_Somiedo_Asturias.jpg">
+          <div class="card-body p-2">
+            <p class="card-text font-weight-bold mb-0"> 182 Likes</p>
+            <p class="card-text mb-3">Lago de la Cueva o la mina, llamado así por las entradas a las minas de hierro</p>
           </div>
-          <p class="card-text font-weight-bold">Braña en Somiedo</p>
         </div>
-        <img
-          src="https://2.bp.blogspot.com/-bozy5PZmJFQ/Vyh4Mpc_BYI/AAAAAAAAV60/dfIovc4Kiyw1bghIqoFIxTp-LP7M4-j0gCLcB/s1600/Bra%25C3%25B1a%2Bde%2Bla%2BPornacal%2B2%2BComarca%2BVaqueira%2BAsturias.pn">
-        <div class="card-body p-2">
-          <p class="card-text font-weight-bold mb-0"> 228 Likes</p>
-          <p class="card-text mb-3">Las brañas de Somiedo son antiguas construcciones donde refugiarse mientras se
-            pastoreaba</p>
+        <!--tercer post-->
+        <div class="card mx-auto mb-4" style="width: 35rem;">
+          <div class="card-body p-2">
+            <div class="float-right">
+              <p>04/24</p>
+            </div>
+            <p class="card-text font-weight-bold">Braña en Somiedo</p>
+          </div>
+          <img
+            src="https://2.bp.blogspot.com/-bozy5PZmJFQ/Vyh4Mpc_BYI/AAAAAAAAV60/dfIovc4Kiyw1bghIqoFIxTp-LP7M4-j0gCLcB/s1600/Bra%25C3%25B1a%2Bde%2Bla%2BPornacal%2B2%2BComarca%2BVaqueira%2BAsturias.pn">
+          <div class="card-body p-2">
+            <p class="card-text font-weight-bold mb-0"> 228 Likes</p>
+            <p class="card-text mb-3">Las brañas de Somiedo son antiguas construcciones donde refugiarse mientras se
+              pastoreaba</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-    crossorigin="anonymous"></script>
-  </div>
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
